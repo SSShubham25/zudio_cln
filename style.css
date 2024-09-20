@@ -1,0 +1,409 @@
+
+/* Header */
+.head nav{
+    background-color: black;
+    position: sticky;
+  }
+  #logo {
+    margin: 6px 0px 7px 28px;
+  }
+  #logo .logo-img {
+    height: 40px;
+    width: 200px;
+  }
+  .head .nav-link {
+    font-family: Futura, sans-serif;
+    color: white;
+    padding-left: 50px;
+    letter-spacing: -0.5px;
+  }
+  .head nav :last-of-type {
+    margin-right: 20px;
+  }
+
+  /* main page main body========================================================================= */
+#carouselExampleIndicators img{
+    height: 600px;
+  }
+#carouselExampleControls img{
+    height: 600px;
+} 
+  .varity{ 
+    position: absolute;
+     top: 320px; 
+     left: 70px;
+     z-index: 1; 
+  }
+  .varity a{
+    line-height: 50px;
+    text-decoration: none;
+    color: yellow; 
+  }
+  .varity a:hover{
+    color: gray;
+  }
+
+  /* animated search bar  */
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2),
+      -6px -6px 10px rgba(255, 255, 255, 0.7);
+    margin: 10px;
+    position: relative;
+    transition: width 1.5s;
+  }
+  .magnifier {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 12px;
+  }
+  .mic-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    transition: width 0.4s;
+    transition-delay: 1s;
+  }
+  .input {
+    background-color: transparent;
+    border: none;
+    margin: 10px 50px;
+    width: 100%;
+    outline: none;
+    color: rgb(100, 100, 100);
+    transition: width 1s;
+    transition-delay: 0.5s;
+  }
+  .active.search-bar-container {
+    width: 50px;
+  } 
+  .active .input {
+    width: 0;
+  }
+  .active .mic-icon {
+    width: 0;
+  }
+  
+/* Footer ==========================================================================================*/
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 98vh;   
+  }
+  .footer p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+  .footer p a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer .foot-text-second p a{
+    margin-top: 25px;
+  }
+  
+  /* #Zudio ======================================================================================*/ 
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 145px;
+    padding-top: 35px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+img {
+    height: 350px;
+    width: 350px;
+}
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: Futura, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    padding-top: 25px;
+}
+h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    font-family: Futura, sans-serif;
+}
+div {
+    line-height: 8px;
+}
+
+/* Zudio near you========================================================================= */
+.store-locator .path {
+    margin-top: 35px;
+    padding: 20px;
+}
+.store-locator .path a {
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+    font-weight: 500;
+    font-size: 14px;
+}
+.store-locator .store-heade h5 {
+    color: rgba(0, 0, 0, 0.722);
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-size: 18px;
+}
+.store-locator .find-store .top {
+    background-color: #EFEFEF;
+    height: 180px;
+    width: 97%;
+    padding: 15px;
+    margin-left: 20px;
+}
+.store-locator .find-store .top h3 {
+    padding: 20px;
+    font-weight: 800;
+    font-size: 23px;
+    color: #3d4246;
+}
+.store-locator .find-store .top .loc-d {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 28%;
+}
+.store-locator .find-store .top .loc-d select {
+    width: 300px;
+    height: 38px;
+    margin-right: 20px;
+}
+.store-locator .find-store .head h5 {
+    padding: 20px;
+    color: #3d4246;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1px;
+    width: 97%;
+    height: 775px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.cards .first-card {
+    background-color: #EFEFEF;
+    width: 33.2%;
+    height: 150px;
+    padding: 15px;
+}
+.cards .first-card p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cards .first-card strong {
+    font-size: 12px;
+    font-weight: 800;
+}
+.cards .first-card h5 {
+    font-size: 15px;
+    font-weight: 800;
+}
+.cards .first-card a {
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
+    width: 100px;
+}
+/* .cards .first-card a:hover {
+    background-color: lightgray;
+    color: black;
+} */
+
+ /* z world ============================================================================================ */  
+  .container .content {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.container .content p {
+    color: #6d6e71;
+    font-size: 30px;
+    margin: 0 0 19px;
+}
+.container .content h3 {
+font-weight: 300;
+margin: 60px 0 0;
+text-transform: uppercase;
+color: #000;
+font-size: 60px;
+}
+.container .content h3 a {
+font-weight: 300;
+margin: 60px 0 0;
+text-transform: uppercase;
+color: #000;
+font-size: 60px;
+text-decoration: none;   
+}
+.container .content h3 a:hover{
+color: #6d6e71;
+}
+
+/* Zudio location page (where we are)============================================================================ */
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loc .map{
+    width: 80%;
+    height: 80vh;
+    margin: 55px 30px 55px 0px;
+}
+.loc .map .live-map{
+    width: 100%;
+    height: inherit;
+}
+.loc .side-bar{
+    width: 22%;
+    height: 80vh;
+    margin: 55px 0px 55px 30px;
+    border: 1px solid lightgrey;
+    overflow-y: scroll;
+   
+}
+.loc .side-bar h5{
+    color: gray;
+    padding: 20px 5px 3px 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.loc .side-bar input{
+    width: 90%;
+    height: 35px;
+    margin-left: 5px;
+}
+.loc .side-bar .st{
+    height: 170px;
+    line-height: 8px;
+    font-size: 13px;
+    padding: 5px;
+    font-family: Futura, sans-serif;
+}
+.loc .side-bar .st:hover{
+   background-color: #e2e2e2;
+   cursor: pointer;
+}
+.loc .side-bar .st:active {
+    background-color: rgb(217, 201, 228);
+}
+.loc .side-bar .st h5{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.loc .side-bar .st h6{
+    color: green;
+    font-weight: 700;
+}
+.loc .side-bar .st strong{ 
+    font-weight: 800;
+}
+.loc .side-bar .st strong {
+    color: gray;
+}
+.loc .side-bar .st p{
+    color: gray;
+}
+
+/* Franchis ------------------------------------------------------------------------------------------ */
+.enquiry{
+    width: 70%;
+    height: 900px;
+    margin-left: 200px;
+    padding: 20px;   
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Futura, sans-serif;
+}
+.enquiry .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.enquiry h1{
+    font-size: 35px;
+}
+.enquiry p,sup{
+    color: red;
+}
+.enquiry .box1 input{
+    height: 30px;
+    width: 230px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+}
+.enquiry button{
+    padding: 8px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+}
+.enquiry button:hover{
+    background-color: #557b97;
+}
+.enquiry label{
+    font-family: cursive;
+}
+.enquiry .box2 #Turnover, #loc{
+    height: 30px;
+    width: 500px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+}
+.enquiry .box2 #gst{
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+}
+.inst .box3{
+    font-family: cursive;
+    line-height: 25px;
+    color: grey;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+}
+
